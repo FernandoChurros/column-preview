@@ -1,0 +1,14 @@
+:root {
+	--bg-sedans: hsl(31, 77%, 52%);
+	--bg-suvs: hsl(184, 100%, 22%);
+	--bg-luxury: hsl(179, 100%, 13%);
+	--paragrapg: hsla(0, 0%, 100%, 0.75);
+	--bg-head-button: hsl(0, 0%, 95%);
+
+	--font-big-shoulders: 'Big Shoulders Display', cursive;
+   --font-lexend: 'Lexend Deca', sans-serif;
+}
+
+body  {
+	font-size: 15px;
+}
