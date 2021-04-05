@@ -2,7 +2,7 @@
 	--bg-sedans: hsl(31, 77%, 52%);
 	--bg-suvs: hsl(184, 100%, 22%);
 	--bg-luxury: hsl(179, 100%, 13%);
-	--paragrapg: hsla(0, 0%, 100%, 0.75);
+	--paragraph: hsla(0, 0%, 100%, 0.75);
 	--bg-head-button: hsl(0, 0%, 95%);
 
 	--font-big-shoulders: 'Big Shoulders Display', cursive;
@@ -10,5 +10,27 @@
 }
 
 body  {
+	background-color: var(--bg-head-button);
+	color: var(--paragraph);
+	font-family: var(--font-lexend);
 	font-size: 15px;
+}
+
+h1,
+h2 {
+	font-size: 2rem;
+	font-family: var(--font-big-shoulders);
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+p {
+	line-height: 1.5;
+}
+
+::before {
+	display: block;
+	margin-bottom: 1.5rem;
 }

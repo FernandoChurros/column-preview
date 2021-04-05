@@ -1,0 +1,33 @@
+.cars_option {
+	padding: 2rem;
+
+	display: flex;
+	flex-direction: column;
+	grid-row-gap: 1.5rem;
+}
+
+.sedans {
+	background-color: var(--bg-sedans);
+	border-radius: 20px 20px 0 0;
+}
+
+.suvs {
+	background-color: var(--bg-suvs);
+}
+
+.luxury {
+	background-color: var(--bg-luxury);
+	border-radius: 0 0 20px 20px;
+}
+
+.title_sedans::before  {
+	content: url("../assets/icon-sedans.svg");
+}
+
+.title_suvs::before  {
+	content: url("../assets/icon-suvs.svg");
+}
+
+.title_luxury::before  {
+	content: url("../assets/icon-luxury.svg");
+}

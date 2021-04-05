@@ -1,0 +1,19 @@
+.btn {
+	border: none;
+	border-radius: 50px;
+	font-size: .9rem;
+	padding: .8rem 1rem;
+	width: 50%;
+}
+
+.btn_sedans {
+	color: var(--bg-sedans);
+}
+
+.btn_suvs {
+	color: var(--bg-suvs);
+}
+
+.btn_luxury {
+	color: var(--bg-luxury);
+}
