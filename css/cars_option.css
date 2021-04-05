@@ -8,7 +8,6 @@
 
 .sedans {
 	background-color: var(--bg-sedans);
-	border-radius: 20px 20px 0 0;
 }
 
 .suvs {
@@ -17,7 +16,6 @@
 
 .luxury {
 	background-color: var(--bg-luxury);
-	border-radius: 0 0 20px 20px;
 }
 
 .title_sedans::before  {
@@ -30,4 +28,36 @@
 
 .title_luxury::before  {
 	content: url("../assets/icon-luxury.svg");
+}
+
+@media screen and (max-width: 1000px) {
+	.sedans {
+		border-radius: 10px 10px 0 0;
+	}
+
+	.suvs {
+		background-color: var(--bg-suvs);
+	}
+
+	.luxury {
+		border-radius: 0 0 10px 10px;
+	}	
+}
+
+@media screen and (min-width: 1000px) {
+	.cars_option {
+		justify-content: space-between;
+	}
+
+	.sedans {
+		border-radius: 10px 0 0 10px;
+	}
+
+	.suvs {
+		background-color: var(--bg-suvs);
+	}
+
+	.luxury {
+		border-radius: 0 10px 10px 0;
+	}	
 }

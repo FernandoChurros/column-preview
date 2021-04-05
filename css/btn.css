@@ -1,5 +1,6 @@
 .btn {
-	border: none;
+	background-color: var(--bg-head-button);
+	border: 2px solid var(--bg-head-button);
 	border-radius: 50px;
 	font-size: .9rem;
 	padding: .8rem 1rem;
@@ -16,4 +17,9 @@
 
 .btn_luxury {
 	color: var(--bg-luxury);
+}
+
+.btn:hover {
+	background-color: transparent;
+	color: var(--bg-head-button);
 }
